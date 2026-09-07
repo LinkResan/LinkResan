@@ -7,7 +7,7 @@
 
 **پلتفرم SaaS لینک‌رسان برای ساخت، مدیریت، تحلیل، توزیع و رشد لینک‌های حرفه‌ای — از کاربر مستقل تا تیم و توسعه‌دهنده.**
 
-[🌐 وب‌سایت](https://linkresan.ir) · [💳 قیمت‌گذاری](https://linkresan.ir/pricing) · [📚 دانش‌نامه](https://linkresan.ir/knowledge) · [🧩 توسعه‌دهندگان](docs/DEVELOPERS.md) · [🗓 تاریخچه انتشار](docs/RELEASE_HISTORY_2026-09.md)
+[🌐 وب‌سایت](https://linkresan.ir) · [💳 قیمت‌گذاری](https://linkresan.ir/pricing) · [📚 دانش‌نامه](https://linkresan.ir/knowledge) · [🚀 Releases](https://github.com/LinkResan/LinkResan/releases) · [🗓 Release Ledger](docs/RELEASE_LEDGER.md) · [🧩 توسعه‌دهندگان](docs/DEVELOPERS.md)
 
 </div>
 
@@ -99,7 +99,7 @@ LinkResan فقط کوتاه‌کننده URL نیست؛ چرخه کامل لین
 - hardening چندمرحله‌ای Knowledge Engine و curated research.
 - Android APK GitHub build workflow در pipeline خصوصی Production.
 
-[مشاهده تاریخچه کامل September 2026 →](docs/RELEASE_HISTORY_2026-09.md)
+[مشاهده Release Ledger کامل →](docs/RELEASE_LEDGER.md)
 
 ---
 
@@ -187,7 +187,9 @@ Public material فقط claimهایی را منتشر می‌کند که قابل
 | [DEVELOPERS.md](docs/DEVELOPERS.md) | entry point توسعه‌دهندگان و credential hygiene |
 | [ARCHITECTURE.md](docs/ARCHITECTURE.md) | معماری public-safe سطح بالا |
 | [ROADMAP.md](docs/ROADMAP.md) | shipped / partial / not-shipped truth |
-| [RELEASE_HISTORY_2026-09.md](docs/RELEASE_HISTORY_2026-09.md) | milestoneهای Production از 2026-08-22 تا 2026-09-06 |
+| [RELEASE_LEDGER.md](docs/RELEASE_LEDGER.md) | تاریخچه کامل public-safe milestoneهای Production |
+| [RELEASE_HISTORY_2026-09.md](docs/RELEASE_HISTORY_2026-09.md) | جزئیات refresh اخیر |
+| [ORGANIZATION_PROFILE.md](docs/ORGANIZATION_PROFILE.md) | محتوای canonical برای صفحه Organization |
 | [SECURITY.md](docs/SECURITY.md) | disclosure و safety boundary |
 | [BRAND.md](docs/BRAND.md) | قواعد public positioning و copy |
 | [FAQ.md](docs/FAQ.md) | پاسخ کوتاه به پرسش‌های پرتکرار |
@@ -221,11 +223,11 @@ Public material فقط claimهایی را منتشر می‌کند که قابل
 
 Public updates follow:
 
-`Issue → Branch → Commits → Pull Request → Code Review → Merge`
+`Issue → Branch → Commits → Pull Request → Code Review → Merge → Release record`
 
 Production changes are summarized publicly only after they are verified and sanitized. The public repository is **not** updated by mirroring private Git history.
 
-Current refresh record: [Issue #13](https://github.com/LinkResan/LinkResan/issues/13)
+Current refresh records: [Issue #13](https://github.com/LinkResan/LinkResan/issues/13) · [Issue #15](https://github.com/LinkResan/LinkResan/issues/15)
 
 ---
 
@@ -235,6 +237,7 @@ Current refresh record: [Issue #13](https://github.com/LinkResan/LinkResan/issue
 - Knowledge base: https://linkresan.ir/knowledge
 - Contact: https://linkresan.ir/contact
 - Public issues: https://github.com/LinkResan/LinkResan/issues
+- Releases: https://github.com/LinkResan/LinkResan/releases
 
 ---
 
@@ -242,6 +245,6 @@ Current refresh record: [Issue #13](https://github.com/LinkResan/LinkResan/issue
 
 **LinkResan — ساخت لینک کمتر نیست؛ مدیریت تجربه و داده لینک است.**
 
-<sub>Public product truth refreshed through 2026-09-06 · tracked by Issue #13</sub>
+<sub>Public product truth refreshed through 2026-09-06 · Release ledger maintained in this repository</sub>
 
 </div>
