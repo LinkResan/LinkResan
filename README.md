@@ -23,7 +23,7 @@ LinkResan فقط کوتاه‌کننده URL نیست؛ چرخه کامل لین
 >
 > **Canonical public repository:** `LinkResan/LinkResan`
 
-آخرین refresh عمومی این repository وضعیت تأییدشده Production را تا **2026-09-06** مستند می‌کند.
+آخرین refresh عمومی این repository وضعیت تأییدشده Production را تا **2026-11-22** مستند می‌کند.
 
 ---
 
@@ -73,6 +73,13 @@ LinkResan فقط کوتاه‌کننده URL نیست؛ چرخه کامل لین
 ---
 
 ## تازه‌ترین milestoneها | Latest verified milestones
+
+### 2026-11-22 — Reliability & Knowledge refresh
+- بازیابی کامل خط کیفیت Frontend و ساخت پایدار `main`
+- بهینه‌سازی GitHub Actions و بازیابی قابلیت اطمینان CI روی پلن رایگان
+- انتشار مقاله دانش‌نامه «دامنه اختصاصی و لینک برندشده» و بازیابی ریتم به‌روزرسانی دانش
+- تکمیل ورودی‌های صفحه Release Center (۱۴۰۵/۰۶/۳۰، ۱۴۰۵/۰۷/۰۸، ۱۴۰۵/۰۹/۰۱)
+- اجرای انضباط merge-only: همه تغییرات `main` فقط از مسیر Pull Request با CI سبز
 
 ### 2026-09-06 — CRM360 analytics & Bio traffic
 - تکمیل real analytics در CRM360.
