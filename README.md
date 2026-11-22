@@ -68,6 +68,8 @@ LinkResan فقط کوتاه‌کننده URL نیست؛ چرخه کامل لین
 | Mobile | Android delivery workflow / Native client | 🟡 Preview / Partial |
 | Open Source | مواد عمومی منتخب | 🟡 Partial — commercial Production remains private |
 
+| Billing | پرداخت رمزارزی (Crypto billing) | ❌ Not shipped — در نقشه‌راه؛ فقط پرداخت ریالی فعال است |
+
 > `Partial` و `Preview` عمداً به‌عنوان `Shipped` تبلیغ نمی‌شوند. وضعیت عمومی باید با product truth تأییدشده در Production هم‌راستا بماند.
 
 ---

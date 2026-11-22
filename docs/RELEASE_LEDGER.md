@@ -110,6 +110,23 @@ Private growth-event transport, infrastructure origins, environment configuratio
 
 ---
 
+
+## 2026-11-22 — Reliability, security and analytics refresh
+
+### Public-safe release summary
+- Security hardening implemented for all public responses: HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy and a conservative first-party Content-Security-Policy (activates with the next production deploy).
+- Real HTTP 404 contract for unknown, expired and exhausted short-link codes — no soft-404 fallback to the homepage (SEO fix, regression-proofed with tests).
+- Analytics Pro delivered end-to-end on the source-of-truth mainline: top links and per-link drilldown, conversion endpoints and UI, period comparison with decision insights, Persian localization and percent-share readability.
+- Smart Links routing foundation delivered: device/country routing rules with dashboard management and safe fallback.
+- Autonomous Knowledge Engine recovered: daily publication contract (score threshold, weekly ceiling, fail-closed daily target), self-hosted zero-cost runner, and a research recall fallback that unblocks the editorial planner.
+- Isolated Cloudflare workers.dev preview lane with fail-safe credential detection (production deploy path unchanged).
+- Persian branding contract enforced in CI (Persian digits, founder branding guards).
+- GitHub Actions cost optimization and free-tier reliability restoration.
+
+### Confidentiality boundary
+Implementation details, infrastructure topology, environment configuration, admin/CRM internals and all operational data remain private in the canonical Production repository.
+
+---
 ## 2026-08-20 — CRM360 public-safe milestone
 
 ### Public-safe release summary
