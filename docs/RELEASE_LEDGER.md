@@ -8,7 +8,19 @@
 
 ## Current synchronization status
 
-Public product truth in this repository is synchronized through **2026-09-06**.
+Public product truth in this repository is synchronized through **2026-11-22**.
+
+## 2026-11-22 — CI reliability, knowledge cadence & Release Center integrity
+
+### Public-safe release summary
+- Frontend quality gate restored; production `main` became buildable again after a source-formatting defect introduced on 2026-09-30 was corrected through the PR pipeline.
+- GitHub Actions consumption optimized; CI reliability restored on the free tier.
+- Knowledge publishing cadence restored with a new founder-reviewed Persian guide (custom domains / branded short links).
+- Release Center received verified backfill entries (1405/06/30, 1405/07/08, 1405/09/01).
+- Merge-only discipline enforced: all changes to `main` land through Pull Requests with green CI.
+
+### Confidentiality boundary
+Private implementation details, incident internals and infrastructure identifiers remain private.
 
 ## 2026-09-06 — CRM360 analytics & Bio traffic
 
