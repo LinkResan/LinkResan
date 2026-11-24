@@ -16,6 +16,6 @@
     "billingCrypto": "not-shipped",
     "mobileNative": "preview"
   },
-  "sourceMilestone": "issue63-e2e-v2",
-  "generatedAt": "2026-11-22T19:30:00+03:30"
+  "sourceMilestone": "v7.15.0",
+  "generatedAt": "2026-11-24T18:51:26+03:30"
 }
