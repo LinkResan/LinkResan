@@ -16,6 +16,8 @@
     "billingCrypto": "not-shipped",
     "mobileNative": "preview"
   },
-  "sourceMilestone": "v7.16.0",
-  "generatedAt": "2026-11-25T18:09:05+03:30"
+  "mobileNative": "shipped",
+  "mobileNativeVersion": "v7.16.0",
+  "sourceMilestone": "v7.16.0-downloads",
+  "generatedAt": "2026-11-25T14:56:37Z"
 }
