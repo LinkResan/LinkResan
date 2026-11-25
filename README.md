@@ -9,7 +9,7 @@
 
 [🌐 وب‌سایت](https://linkresan.ir) · [💳 قیمت‌گذاری](https://linkresan.ir/pricing) · [📚 دانش‌نامه](https://linkresan.ir/knowledge) · [🧩 توسعه‌دهندگان](docs/DEVELOPERS.md)
 
-[![Download Android APK](https://img.shields.io/badge/⬇️_دانلود_Android_APK-v7.15.0-34d399?style=for-the-badge&logo=android&logoColor=white)](https://github.com/LinkResan/LinkResan/releases/download/v7.15.0/LinkResan-Android-v7.15.0.apk)
+[![Download Android APK](https://img.shields.io/badge/⬇️_دانلود_Android_APK-v2.0-34d399?style=for-the-badge&logo=android&logoColor=white)](https://github.com/LinkResan/LinkResan/releases/download/v7.15.0/LinkResan-Android-v2.0-arm64.apk)
 [![Release](https://img.shields.io/badge/فایل‌های_دانلود-Releases-818cf8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LinkResan/LinkResan/releases/tag/v7.15.0)
 
 </div>
@@ -20,7 +20,7 @@
 
 | پلتفرم | فایل | لینک |
 |---|---|---|
-| 🤖 Android | `LinkResan-Android-v7.15.0.apk` (v7.15.0) | [دانلود مستقیم APK](https://github.com/LinkResan/LinkResan/releases/download/v7.15.0/LinkResan-Android-v7.15.0.apk) |
+| 🤖 Android | `LinkResan-Android-v2.0-arm64.apk` (v2.0 — کاهش ۵۸٪ حجم) | [دانلود مستقیم APK](https://github.com/LinkResan/LinkResan/releases/download/v7.15.0/LinkResan-Android-v2.0-arm64.apk) |
 | 🍎 iOS (Simulator) | `LinkResan-iOS-Simulator-v7.15.0.zip` | [صفحه Release](https://github.com/LinkResan/LinkResan/releases/tag/v7.15.0) |
 
 - هویت اپ: `ir.linkresan.mobile` — هر تغییر روی `mobile/**` در مخزن production بیلد APK خودکار می‌گیرد.
