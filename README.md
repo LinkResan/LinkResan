@@ -9,22 +9,7 @@
 
 [🌐 وب‌سایت](https://linkresan.ir) · [💳 قیمت‌گذاری](https://linkresan.ir/pricing) · [📚 دانش‌نامه](https://linkresan.ir/knowledge) · [🧩 توسعه‌دهندگان](docs/DEVELOPERS.md)
 
-[![Download Android APK](https://img.shields.io/badge/⬇️_دانلود_Android_APK-v2.0-34d399?style=for-the-badge&logo=android&logoColor=white)](https://github.com/LinkResan/LinkResan/releases/download/v7.15.0/LinkResan-Android-v2.0-arm64.apk)
-[![Release](https://img.shields.io/badge/فایل‌های_دانلود-Releases-818cf8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LinkResan/LinkResan/releases/tag/v7.15.0)
-
 </div>
-
----
-
-## 📥 دانلود اپ موبایل | Mobile app downloads
-
-| پلتفرم | فایل | لینک |
-|---|---|---|
-| 🤖 Android | `LinkResan-Android-v2.0-arm64.apk` (v2.0 — کاهش ۵۸٪ حجم) | [دانلود مستقیم APK](https://github.com/LinkResan/LinkResan/releases/download/v7.15.0/LinkResan-Android-v2.0-arm64.apk) |
-| 🍎 iOS (Simulator) | `LinkResan-iOS-Simulator-v7.15.0.zip` | [صفحه Release](https://github.com/LinkResan/LinkResan/releases/tag/v7.15.0) |
-
-- هویت اپ: `ir.linkresan.mobile` — هر تغییر روی `mobile/**` در مخزن production بیلد APK خودکار می‌گیرد.
-- نسخه iOS فعلی بیلد شبیه‌ساز است (اجرا روی Mac)؛ نصب روی آیفون واقعی پس از فعال‌سازی Apple Developer و TestFlight فعال می‌شود.
 
 ---
 
@@ -223,6 +208,6 @@ Public updates are prepared from explicitly allowlisted Production material and 
 
 **LinkResan — ساخت لینک کمتر نیست؛ مدیریت تجربه لینک است.**
 
-<sub>Public snapshot source milestone: `v7.15.0` · generated: `2026-11-24T18:51:26+03:30`</sub>
+<sub>Public snapshot source milestone: `v7.16.0` · generated: `2026-11-25T18:09:05+03:30`</sub>
 
 </div>
