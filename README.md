@@ -77,7 +77,7 @@
 
 ویژگی‌ها: فارسی پیش‌فرض + راست‌به‌چپ کامل • تعویض زبان در صفحه ورود • فونت وزیرمتن • دارک مود/روشن انتخابی • همه امکانات سایت داخل اپ • آیکن رسمی لینک‌رسان • آماده Google Play — [Release notes →](https://github.com/LinkResan/LinkResan/releases)
 
-> **نکته نصب (Play Protect):** هنگام نصب مستقیم APK ممکن است اندروید پیام «App blocked to protect your device» نشان دهد؛ این هشدار استاندارد گوگل برای همه اپ‌های خارج از Play Store است. روی **More details → Install anyway** بزنید — APK لینک‌رسان با کلید پایدار امضا شده (v1+v2+v3) و فقط مجوز INTERNET دارد. با انتشار رسمی در Google Play این هشدار به‌طور کامل حذف می‌شود.
+> **نکته نصب (Play Protect):** هنگام نصب مستقیم APK ممکن است اندروید پیام «App blocked to protect your device» نشان دهد؛ این هشدار استاندارد گوگل برای همه اپ‌های خارج از Play Store است. روی **More details → Install anyway** بزنید — APK لینک‌رسان با کلید پایدار امضا شده (طرح‌های v2 + v3) و فقط مجوز INTERNET دارد. با انتشار رسمی در Google Play این هشدار به‌طور کامل حذف می‌شود.
 
 ---
 
@@ -224,6 +224,6 @@ Public updates are prepared from explicitly allowlisted Production material and 
 
 **LinkResan — ساخت لینک کمتر نیست؛ مدیریت تجربه لینک است.**
 
-<sub>Public snapshot source milestone: `v7.17.0` · generated: `2026-11-26T08:07:13+03:30`</sub>
+<sub>Public snapshot source milestone: `e6ded458cb000040a1e5b234b6a177c7353af5bd` · generated: `2026-11-26T08:24:38+03:30`</sub>
 
 </div>
