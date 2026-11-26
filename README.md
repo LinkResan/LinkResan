@@ -58,7 +58,7 @@
 | Localization | Persian / RTL | ✅ Shipped |
 | Billing | پرداخت ریالی | ✅ Shipped |
 | Billing | پرداخت رمزارزی | ❌ Not shipped |
-| Mobile | اپ Native اندروید (Kotlin + Compose) و iOS (SwiftUI) | ✅ Shipped — v7.16.0 |
+| Mobile | اپ Native اندروید (Kotlin + Compose) و iOS (SwiftUI) | ✅ Shipped — v7.17.0 |
 | Open Source | مواد عمومی منتخب | 🟡 Partial — commercial Production is private |
 
 > `Partial` و `Preview` عمداً به‌عنوان `Shipped` تبلیغ نمی‌شوند. وضعیت عمومی باید با product truth تأییدشده در Production هم‌راستا بماند.
@@ -67,15 +67,17 @@
 
 ## 📥 دانلود اپ موبایل | Mobile app downloads
 
-از نسخه **v7.16.0** اپ لینک‌رسان **کاملاً Native** است: اندروید با Kotlin + Jetpack Compose و iOS با SwiftUI.
+از نسخه **v7.16.0** اپ لینک‌رسان **کاملاً Native** است: اندروید با Kotlin + Jetpack Compose و iOS با SwiftUI. نسخه فعلی **v7.17.0**: فارسی پیش‌فرض در اولین اجرا، تعویض زبان در صفحه ورود و اصلاح خطای ورود.
 
 | پلتفرم | فایل | حجم | نکته |
 |---|---|---|---|
-| Android | [LinkResan-Android-v7.16.0.apk](https://github.com/LinkResan/LinkResan/releases/download/v7.16.0/LinkResan-Android-v7.16.0.apk) | **۲.۸ MB** | نصب مستقیم — نسخه قبلی (React Native) را ابتدا حذف کنید |
-| Android (Play) | [LinkResan-Android-v7.16.0.aab](https://github.com/LinkResan/LinkResan/releases/download/v7.16.0/LinkResan-Android-v7.16.0.aab) | ۵.۲ MB | بسته Android App Bundle برای انتشار در Google Play |
-| iOS | [LinkResan-iOS-Simulator-v7.16.0.zip](https://github.com/LinkResan/LinkResan/releases/download/v7.16.0/LinkResan-iOS-Simulator-v7.16.0.zip) | ۱.۵ MB | بیلد شبیه‌ساز SwiftUI (TestFlight پس از حساب Apple Developer) |
+| Android | [LinkResan-Android-v7.17.0.apk](https://github.com/LinkResan/LinkResan/releases/download/v7.17.0/LinkResan-Android-v7.17.0.apk) | **۲.۸ MB** | نصب مستقیم روی نسخه قبلی (امضای پایدار) — نسخه React Native قدیمی را ابتدا حذف کنید |
+| Android (Play) | [LinkResan-Android-v7.17.0.aab](https://github.com/LinkResan/LinkResan/releases/download/v7.17.0/LinkResan-Android-v7.17.0.aab) | ۵.۲ MB | بسته Android App Bundle برای انتشار در Google Play |
+| iOS | [LinkResan-iOS-Simulator-v7.17.0.zip](https://github.com/LinkResan/LinkResan/releases/download/v7.17.0/LinkResan-iOS-Simulator-v7.17.0.zip) | ۱.۵ MB | بیلد شبیه‌ساز SwiftUI (TestFlight پس از حساب Apple Developer) |
 
-ویژگی‌ها: فارسی راست‌به‌چپ کامل + انگلیسی • فونت وزیرمتن • دارک مود/روشن انتخابی • همه امکانات سایت داخل اپ • آیکن رسمی لینک‌رسان • آماده Google Play — [Release notes →](https://github.com/LinkResan/LinkResan/releases)
+ویژگی‌ها: فارسی پیش‌فرض + راست‌به‌چپ کامل • تعویض زبان در صفحه ورود • فونت وزیرمتن • دارک مود/روشن انتخابی • همه امکانات سایت داخل اپ • آیکن رسمی لینک‌رسان • آماده Google Play — [Release notes →](https://github.com/LinkResan/LinkResan/releases)
+
+> **نکته نصب (Play Protect):** هنگام نصب مستقیم APK ممکن است اندروید پیام «App blocked to protect your device» نشان دهد؛ این هشدار استاندارد گوگل برای همه اپ‌های خارج از Play Store است. روی **More details → Install anyway** بزنید — APK لینک‌رسان با کلید پایدار امضا شده (v1+v2+v3) و فقط مجوز INTERNET دارد. با انتشار رسمی در Google Play این هشدار به‌طور کامل حذف می‌شود.
 
 ---
 
@@ -222,6 +224,6 @@ Public updates are prepared from explicitly allowlisted Production material and 
 
 **LinkResan — ساخت لینک کمتر نیست؛ مدیریت تجربه لینک است.**
 
-<sub>Public snapshot source milestone: `v7.16.0-downloads` · generated: `2026-11-25T14:56:37Z`</sub>
+<sub>Public snapshot source milestone: `v7.17.0` · generated: `2026-11-26T08:07:13+03:30`</sub>
 
 </div>
