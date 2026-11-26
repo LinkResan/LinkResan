@@ -17,7 +17,7 @@
     "mobileNative": "preview"
   },
   "mobileNative": "shipped",
-  "mobileNativeVersion": "v7.17.0",
-  "sourceMilestone": "e6ded458cb000040a1e5b234b6a177c7353af5bd",
-  "generatedAt": "2026-11-26T08:24:38+03:30"
+  "mobileNativeVersion": "v7.18.0",
+  "sourceMilestone": "v7.18.0",
+  "generatedAt": "2026-11-26T09:10:05+03:30"
 }
