@@ -224,6 +224,6 @@ Public updates are prepared from explicitly allowlisted Production material and 
 
 **LinkResan — ساخت لینک کمتر نیست؛ مدیریت تجربه لینک است.**
 
-<sub>Public snapshot source milestone: `v7.19.0` · generated: `2026-11-26T10:14:25+03:30`</sub>
+<sub>Public snapshot source milestone: `v7.20.0` · generated: `2026-11-26T14:39:47+03:30`</sub>
 
 </div>
