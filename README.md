@@ -58,7 +58,7 @@
 | Localization | Persian / RTL | ✅ Shipped |
 | Billing | پرداخت ریالی | ✅ Shipped |
 | Billing | پرداخت رمزارزی | ❌ Not shipped |
-| Mobile | اپ Native اندروید (Kotlin + Compose) و iOS (SwiftUI) | ✅ Shipped — v7.19.0 |
+| Mobile | اپ Native اندروید (Kotlin + Compose) و iOS (SwiftUI) | ✅ Shipped — v7.21.1 |
 | Open Source | مواد عمومی منتخب | 🟡 Partial — commercial Production is private |
 
 > `Partial` و `Preview` عمداً به‌عنوان `Shipped` تبلیغ نمی‌شوند. وضعیت عمومی باید با product truth تأییدشده در Production هم‌راستا بماند.
@@ -67,17 +67,17 @@
 
 ## 📥 دانلود اپ موبایل | Mobile app downloads
 
-از نسخه **v7.16.0** اپ لینک‌رسان **کاملاً Native** است: اندروید با Kotlin + Jetpack Compose و iOS با SwiftUI. نسخه فعلی **v7.19.0**: رفع ریشه‌ای و نهایی مشکل ورود اندروید — R8 نام فیلدهای JSON را تغییر می‌داد و سرور اعتبارنامه را رد می‌کرد؛ حالا قرارداد JSON با قانون Proguard اصلاح‌شده، انوتیشن‌های صریح و گارد CI محافظت می‌شود + تلاش دوم هوشمند ورود با رمز خام.
+از نسخه **v7.16.0** اپ لینک‌رسان **کاملاً Native** است: اندروید با Kotlin + Jetpack Compose و iOS با SwiftUI. نسخه فعلی **v7.21.1**: پایدارترین نسخه تا امروز — اپ حتی در صورت بروز خطای غیرمنتظره بسته نمی‌شود و خودش بازیابی می‌کند، و در صورت وجود هر مشکل، گزارش آن به‌صورت خودکار برای پشتیبانی ارسال می‌شود.
 
 | پلتفرم | فایل | حجم | نکته |
 |---|---|---|---|
-| Android | [LinkResan-Android-v7.19.0.apk](https://github.com/LinkResan/LinkResan/releases/download/v7.19.0/LinkResan-Android-v7.19.0.apk) | **۲.۸ MB** | نصب مستقیم روی نسخه قبلی (امضای پایدار) — نسخه React Native قدیمی را ابتدا حذف کنید |
-| Android (Play) | [LinkResan-Android-v7.19.0.aab](https://github.com/LinkResan/LinkResan/releases/download/v7.19.0/LinkResan-Android-v7.19.0.aab) | ۵.۲ MB | بسته Android App Bundle برای انتشار در Google Play |
-| iOS | [LinkResan-iOS-Simulator-v7.19.0.zip](https://github.com/LinkResan/LinkResan/releases/download/v7.19.0/LinkResan-iOS-Simulator-v7.19.0.zip) | ۱.۵ MB | بیلد شبیه‌ساز SwiftUI (TestFlight پس از حساب Apple Developer) |
+| Android | [LinkResan-Android-v7.21.1.apk](https://github.com/LinkResan/LinkResan/releases/download/v7.21.1/LinkResan-Android-v7.21.1.apk) | **۲.۹ MB** | نصب مستقیم روی نسخه قبلی (امضای پایدار) |
+| Android (Play) | [LinkResan-Android-v7.21.1.aab](https://github.com/LinkResan/LinkResan/releases/download/v7.21.1/LinkResan-Android-v7.21.1.aab) | ۵.۴ MB | بسته Android App Bundle برای انتشار در Google Play |
+| iOS | [LinkResan-iOS-Simulator-v7.21.1.zip](https://github.com/LinkResan/LinkResan/releases/download/v7.21.1/LinkResan-iOS-Simulator-v7.21.1.zip) | ۱.۵ MB | بیلد شبیه‌ساز SwiftUI (TestFlight پس از حساب Apple Developer) |
 
-ویژگی‌ها: ورود بی‌دغدغه (نمایش رمز با دکمه چشم + پاک‌سازی خودکار نویسه‌های نامرئی + تلاش دوم با رمز خام) • فارسی پیش‌فرض + راست‌به‌چپ کامل • تعویض زبان در صفحه ورود • فونت وزیرمتن • دارک مود/روشن انتخابی • همه امکانات سایت داخل اپ • آیکن رسمی لینک‌رسان • آماده Google Play — [Release notes →](https://github.com/LinkResan/LinkResan/releases)
+ویژگی‌ها: ورود بی‌دغدغه (نمایش رمز با دکمه چشم + پاک‌سازی خودکار نویسه‌های نامرئی) • فارسی پیش‌فرض + راست‌به‌چپ کامل • تعویض زبان در صفحه ورود • فونت وزیرمتن • دارک مود/روشن انتخابی • همه امکانات سایت داخل اپ • بازیابی خودکار از خطا • به‌روزرسانی از داخل اپ • آیکن رسمی لینک‌رسان • آماده Google Play — [Release notes →](https://github.com/LinkResan/LinkResan/releases)
 
-> **نکته نصب (Play Protect):** هنگام نصب مستقیم APK ممکن است اندروید پیام «App blocked to protect your device» نشان دهد؛ این هشدار استاندارد گوگل برای همه اپ‌های خارج از Play Store است. روی **More details → Install anyway** بزنید — APK لینک‌رسان با کلید پایدار امضا شده (طرح‌های v2 + v3) و فقط مجوز INTERNET دارد. با انتشار رسمی در Google Play این هشدار به‌طور کامل حذف می‌شود.
+> **نکته نصب (Play Protect):** هنگام نصب مستقیم APK ممکن است اندروید پیام «App blocked to protect your device» نشان دهد؛ این هشدار استاندارد گوگل برای همه اپ‌های خارج از Play Store است. روی **More details → Install anyway** بزنید — فایل لینک‌رسان رسمی و امضاشده است. با انتشار رسمی در Google Play این هشدار به‌طور کامل حذف می‌شود.
 
 ---
 
@@ -224,6 +224,6 @@ Public updates are prepared from explicitly allowlisted Production material and 
 
 **LinkResan — ساخت لینک کمتر نیست؛ مدیریت تجربه لینک است.**
 
-<sub>Public snapshot source milestone: `v7.19.0` · generated: `2026-11-26T10:14:25+03:30`</sub>
+<sub>Public snapshot source milestone: `519f1cd534ea3fd1514e3026cf94fc051e003aad` · generated: `2026-11-26T17:08:18+03:30`</sub>
 
 </div>
